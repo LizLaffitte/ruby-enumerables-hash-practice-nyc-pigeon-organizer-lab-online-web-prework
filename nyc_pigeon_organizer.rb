@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
       while names.length > 0
         name = names.pop
         new_pigeon_data[name] ||= {}
+        new_pigeon_data[name][attribute] = detail
       end
       
     end
