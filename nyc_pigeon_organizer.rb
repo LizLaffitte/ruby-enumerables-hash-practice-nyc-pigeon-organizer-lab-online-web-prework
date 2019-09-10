@@ -3,9 +3,7 @@ def nyc_pigeon_organizer(data)
   new_pigeon_data ={}
   data.each do |attribute, detail|
     detail.each do |option|
-      #name.each do |n| 
-       # new_pigeon_data[n] ||= {}
-      #end
+      
       p option
     end
   end
