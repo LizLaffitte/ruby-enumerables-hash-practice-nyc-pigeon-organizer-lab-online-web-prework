@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
       while option.length > 0
         name = option.pop
         new_pigeon_data[name] = {}
-      option.
+      end
       p option
     end
   end
