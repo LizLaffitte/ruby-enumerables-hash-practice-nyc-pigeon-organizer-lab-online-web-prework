@@ -9,7 +9,7 @@ def nyc_pigeon_organizer(data)
         if !new_pigeon_data[name][attribute]
           new_pigeon_data[name][attribute] = [option.to_s]
         else
-          new_pigeon_data[name][attribute].push(option)
+          new_pigeon_data[name][attribute].push(option.to_s)
         end
       end
     end
