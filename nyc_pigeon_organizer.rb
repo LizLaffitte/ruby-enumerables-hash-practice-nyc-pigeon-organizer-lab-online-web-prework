@@ -8,10 +8,9 @@ def nyc_pigeon_organizer(data)
         new_pigeon_data[name] ||= {}
         new_pigeon_data[name][attribute] ||= option
       end
-      
     end
-    p new_pigeon_data
   end
+  p new_pigeon_data
 end
 
 pigeon_data = {
