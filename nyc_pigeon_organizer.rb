@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
         name = option.pop
         new_pigeon_data[name] = {}
       end
-      p option
+      p new_pigeon_data
     end
   end
 end
