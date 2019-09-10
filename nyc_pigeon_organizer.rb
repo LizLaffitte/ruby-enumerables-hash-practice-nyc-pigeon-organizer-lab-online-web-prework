@@ -3,8 +3,9 @@ def nyc_pigeon_organizer(data)
   new_pigeon_data ={}
   data.each do |attribute, detail|
     detail.each do |option, name|
-      name  = {}
-      p name
+      name.each do |n| 
+        new_pigeon_data[n] ||= {}
+      p new_pigeon_data
     end
   end
 end
