@@ -2,11 +2,11 @@ def nyc_pigeon_organizer(data)
   # write your code here!
   new_pigeon_data ={}
   data.each do |attribute, detail|
-    detail.each do |option|
-      name.each do |n| 
-        new_pigeon_data[n] ||= {}
-      end
-      p option
+    detail.each do |option, name|
+      #name.each do |n| 
+       # new_pigeon_data[n] ||= {}
+      #end
+      p new_pigeon_data
     end
   end
 end
