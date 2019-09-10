@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
     detail.each do |option, names|
       while names.length > 0
         name = names.pop
-        new_pigeon_data[name] = {}
+        new_pigeon_data[name] ||= {}
       end
       
     end
